@@ -9,10 +9,19 @@ import UIKit
 
 class detailsViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var jobLabel: UILabel!
+    
+    var selectedSimpson : simpson?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = selectedSimpson?.name
+        jobLabel.text = selectedSimpson?.job
+        imageView.image = selectedSimpson?.image
     }
     
 

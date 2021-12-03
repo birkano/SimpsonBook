@@ -13,6 +13,8 @@
 		5BA518EC275A4B3900FE1584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA518EA275A4B3900FE1584 /* Main.storyboard */; };
 		5BA518EE275A4B3B00FE1584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA518ED275A4B3B00FE1584 /* Assets.xcassets */; };
 		5BA518F1275A4B3B00FE1584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA518EF275A4B3B00FE1584 /* LaunchScreen.storyboard */; };
+		5BA518F9275A4CC400FE1584 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA518F8275A4CC400FE1584 /* detailsViewController.swift */; };
+		5BA518FB275A57C800FE1584 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA518FA275A57C800FE1584 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5BA518ED275A4B3B00FE1584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA518F0275A4B3B00FE1584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA518F2275A4B3B00FE1584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA518F8275A4CC400FE1584 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		5BA518FA275A57C800FE1584 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				5BA518E4275A4B3900FE1584 /* AppDelegate.swift */,
 				5BA518E6275A4B3900FE1584 /* SceneDelegate.swift */,
 				5BA518E8275A4B3900FE1584 /* ViewController.swift */,
+				5BA518FA275A57C800FE1584 /* Simpson.swift */,
+				5BA518F8275A4CC400FE1584 /* detailsViewController.swift */,
 				5BA518EA275A4B3900FE1584 /* Main.storyboard */,
 				5BA518ED275A4B3B00FE1584 /* Assets.xcassets */,
 				5BA518EF275A4B3B00FE1584 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				5BA518E9275A4B3900FE1584 /* ViewController.swift in Sources */,
 				5BA518E5275A4B3900FE1584 /* AppDelegate.swift in Sources */,
 				5BA518E7275A4B3900FE1584 /* SceneDelegate.swift in Sources */,
+				5BA518F9275A4CC400FE1584 /* detailsViewController.swift in Sources */,
+				5BA518FB275A57C800FE1584 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
